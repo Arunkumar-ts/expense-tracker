@@ -230,10 +230,10 @@ a{
 .firstpage-img{
     width: 100%;
     min-height: 100vh;
-    background-image: url(bg-1.jpg);
+    /* background-image: url(bg-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 .details-container{
     text-align: center;
