@@ -1,0 +1,329 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+body{
+    height: 100vh;
+    background-image: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    color: white;
+}
+.headerRow{
+    background-color: #f85976 !important;
+}
+.offvancaheaderStyle{
+    background-color: #ec728a !important;
+}
+.offcanva-close-btn{
+    background-color: #f85976 !important;
+    color: white !important;
+}
+.sideBar{
+    position: relative;
+    height: 100%;
+    background-color: #ec728a !important;
+}
+
+.sideBar1{
+    position: sticky;
+    top: 62px;
+    height: 88vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 10px;
+}
+.sideOffcanva{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 10px !important;
+}
+.side-btns{
+    background-color: rgb(248, 230, 230) !important;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(97, 96, 96, 0.329);
+}
+a{
+    text-decoration: none !important;
+}
+.side-btns:hover{
+    background-color: rgb(243, 186, 186) !important;
+    /* color: white; */
+}
+.balance-item1{
+    background-color: #dbb023;
+    color: white;
+}
+.balance-item2{
+    background-color: #89AC46;
+    color: white;
+}
+.balance-item3{
+    background-color: #E50046;
+    color: white;
+}
+.inexpanel{
+    background-color: #FFC1DA ;
+    position: relative;
+}
+.inexList{
+    color: white;
+    width: 100%;
+}
+.inexList .inexItem{
+    background-color: #f85976 ;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.display-list{
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60%;
+}
+.display-list span{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.date-name{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.date-name .name{
+    font-size: 22px;
+}
+.date-name .date{
+    font-size: 12px;
+}
+.amount-income{
+    margin: 5px;
+    font-size: 18px;
+    color:black;
+    width: 40%;
+    text-align:end;
+    font-weight: bold;
+}
+.amount-expence{
+    font-weight: bold;
+    margin: 5px;
+    font-size: 18px;
+    color: #000;
+    width: 40%;
+    text-align:end;
+}
+.seeMore{
+    color: black;
+    padding: 0px 10px;
+}
+.seeMore:hover{
+    color: blue;
+}
+
+
+/* income page */
+.addIncome{
+    background-color:  #f85976 ;
+    padding: 15px;
+    border: 2px solid #ccc;
+    color: white;
+}
+.addInput{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.addInput label{
+    color: white;
+}
+.addInput input{
+    box-shadow: 0px 0px 5px rgba(100, 99, 99, 0.37);
+    margin: 4px 0px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.addInput input:focus{
+    border: 2px solid #e996a5 ;
+}
+.addInput-btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.addInput-btn button{
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background-color: #fcbac6;
+    color: black;
+    outline: none;
+    border: none;
+}
+.addInput-btn button:hover{
+    /* background-color: #eb4667; */
+    box-shadow: 0px 0px 6px rgb(136, 135, 135);
+}
+.list-btn{
+    padding: 0px 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFC1DA;
+    font-size: 20px;
+    text-align: center;
+}
+.list-btn.edit{
+    color: green ;
+}
+.list-btn.delete{
+    color: red;
+}
+
+/* first Home */
+.auth-btn{
+    padding: 4px 6px;
+    margin: 0px 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:#eb3e5e;
+    color: white;
+}
+.auth-btn:hover{
+    background-color:#fc9eaf;
+}
+.firstpage-img{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.details-container{
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.details-container button{
+    background-color: #f85976;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: dance 1.2s infinite;
+    box-shadow: 0 0 12px rgba(255, 64, 129, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px 0px;
+}
+@keyframes dance {
+ 0%   { transform: rotate(0deg) scale(1); box-shadow: 0 0 10px rgba(255, 64, 129, 0.5); }
+  25%  { transform: rotate(3deg) scale(1.05); box-shadow: 0 0 14px rgba(255, 64, 129, 0.7); }
+  50%  { transform: rotate(-3deg) scale(1.05); box-shadow: 0 0 18px rgba(255, 64, 129, 0.9); }
+  75%  { transform: rotate(3deg) scale(1.05); box-shadow: 0 0 14px rgba(255, 64, 129, 0.7); }
+  100% { transform: rotate(0deg) scale(1); box-shadow: 0 0 10px rgba(255, 64, 129, 0.5); }
+}
+
+.details-container button:hover{
+    /* background-color:#ee758b; */
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* login page */
+.login-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-main .login-form{
+    padding: 20px;
+    background-color: #f3979f94;
+    width: 25rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+.login-main .login-form div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.login-main .login-form div label{
+    color: black;
+    font-weight: bold;
+}
+.login-main .login-form div input{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    
+}
+.login-main .login-form div button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    background-color:#f85976;
+    
+}
+.login-main .login-form div p{
+    text-align: center;
+    color: black;
+}
+.login-main .login-form div p span {
+    color: blue;
+    cursor: pointer;
+}
+.login-main .login-form div p span:hover{
+    text-decoration: underline;
+}   
+.eye{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
